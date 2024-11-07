@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# win
+Thumbs.db
+Desktop.ini
+
+# 環境設定ファイル
+.env
+.env.local
+.env.*.local
+
+# Docker関連ファイル
+docker-compose.override.yml
+docker-compose.local.yml
+
+# IDE関連
+.vscode/
+.idea/
+*.iml
+
+# anthropic
+.anthropic/
